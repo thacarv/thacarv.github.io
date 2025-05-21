@@ -1,12 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfólio Thiago</title>
+    <link rel="stylesheet" href="css\main.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>teste</p>
+    <main>
+      <!-- ----------Cover page----------- -->
+      <div class="hello-world">
+        <div class="hello-world-text">
+          <h1>Olá Mundo!</h1>
+          <p>Clique para continuar</p>
+        </div>
+      </div>
+      <!-- ----------First page----------- -->
+      <div class="resumee">
+        <!-- Nav bar -->
+        <!-- ------- -->
+        <nav>
+          <div class="nav-boxes">
+            <div class="nav-item">
+              <a href="Currículo.pdf" target="_blank" rel="external"
+                ><h1>Currículo</h1></a
+              >
+            </div>
+            <div class="nav-item">
+              <a href=""><h1>Projetos</h1></a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- First node -->
+        <!-- ---------- -->
+        <div class="profile">
+          <div class="profile-text">
+            <h1>Olá, me chamo Thiago Assis de Carvalho.</h1>
+            <p class="profile-subtitle">
+              DEV FRONT-END | JAVASCRIPT | PYTHON | PHP | REACT
+            </p>
+            <p>
+              Sou um desenvolvedor focado em escrever códigos limpos e
+              eficientes.
+            </p>
+          </div>
+          <img
+            class="profile-picture"
+            src="https://chazoo.s3.amazonaws.com/rock-hyrax-verticle-facing-front.JPG"
+            alt=""
+          />
+        </div>
+
+        <!-- Second node -->
+        <!-- ----------- -->
+        <div class="timeline">
+          <h1 class="node-title">Educação e Experiência</h1>
+          <div class="timeline-box right">
+            <div class="timeline-item">
+              <h2>Analista de Qualidade (QA)</h2>
+              <h3>Outlier - Abril/2025 - Atualmente</h3>
+              <!-- <p>
+                    Atuo na revisão de códigos em Python e JavaScript eliminando
+                    bugs e erros presentes nos projetos de diversas companias.
+                    Responsável pelo controle de qualidade de modelos de
+                    Inteligência Artificial (LLMs), garantindo que os mesmos
+                    forneçam respostas adequadas e de alta qualidade para os
+                    contextos dados.
+                  </p> -->
+            </div>
+          </div>
+          <div class="timeline-box left">
+            <div class="timeline-item">
+              <h2>Anhanguera</h2>
+              <h3>Janeiro/2025 à Junho/2025</h3>
+              <p>Pós-Graduação em Dev Full-stack</p>
+            </div>
+          </div>
+          <div class="timeline-box right">
+            <div class="timeline-item">
+              <h2>Analista de Dados e Pesquisador</h2>
+              <h3>UFMG - Outubro/2022 à Fevereiro/2025</h3>
+              <!-- <p>
+                    Responsável pela coleta e análise de dados e no
+                    desenvolvimento de ferramentas em Java, Python e JavaScript
+                    para automatizar processos e facilitar a aquisição de
+                    informações para a equipe de pesquisadores. Além de aplicar
+                    análises estatísticas para gerar gráficos que apoiaram a
+                    tomada de decisões no projeto. Responsável pelo planejamento
+                    e execução de experimentos científicos.
+                  </p> -->
+            </div>
+          </div>
+          <div class="timeline-box left">
+            <div class="timeline-item">
+              <h2>UFMG</h2>
+              <h3>2022 à 2025</h3>
+              <p>Mestrado em Biologia Celular</p>
+            </div>
+          </div>
+          <div class="timeline-box right">
+            <div class="timeline-item">
+              <h2>Estágio/Iniciação Científica</h2>
+              <h3>UFMG - Abril/2019 à Agosto/2022</h3>
+              <!-- <p>
+                    Auxiliava no processamento de imagens e na coleta e análise
+                    de dados relevantes para os projetos científicos realizados
+                    no laboratório.
+                  </p> -->
+            </div>
+          </div>
+          <div class="timeline-box left">
+            <div class="timeline-item">
+              <h2>UFMG</h2>
+              <h3>2017 à 2022</h3>
+              <p>Bacharelado em Ciências Biológicas / Saúde e Biotecnologia</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third node -->
+        <!-- ---------- -->
+        <div class="projects">
+          <div class="projects-nav">
+            <h1 class="node-title">Projetos recentes</h1>
+            <button class="mais-projetos" href="">
+              <h2>Veja mais projetos</h2>
+            </button>
+          </div>
+          <div class="project-boxes">
+            <div class="project-item" id="project1">
+              <img
+                class="project-picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEZvUy3439esY4e_JyJMLh8YuSWxCEPpnGw&s"
+                alt=""
+              />
+              <div class="project-text">
+                <a href="#"><h2>Título do Projeto</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="project-item" id="project2">
+              <img
+                class="project-picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEZvUy3439esY4e_JyJMLh8YuSWxCEPpnGw&s"
+                alt=""
+              />
+              <div class="project-text">
+                <a href="#"><h2>Título do Projeto</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="project-item" id="project3">
+              <img
+                class="project-picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEZvUy3439esY4e_JyJMLh8YuSWxCEPpnGw&s"
+                alt=""
+              />
+              <div class="project-text">
+                <a href="#"><h2>Título do Projeto</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="project-item" id="project4">
+              <img
+                class="project-picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEZvUy3439esY4e_JyJMLh8YuSWxCEPpnGw&s"
+                alt=""
+              />
+              <div class="project-text">
+                <a href="#"><h2>Título do Projeto</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="criador">
+        <h3>Criado por Thiago Assis de Carvalho</h3>
+      </div>
+      <div class="tecnologias">
+        <h3>Tecnologias usadas nesta página:</h3>
+        <div class="tecnologias-imagens">
+          <img src="images/html.png" alt="HTML icon" />
+          <img src="images/css-3.png" alt="CSS 3 icon" />
+          <img src="images/js.png" alt="JavaScript icon" />
+        </div>
+      </div>
+    </footer>
+    <script src="script/main.js"></script>
   </body>
 </html>
