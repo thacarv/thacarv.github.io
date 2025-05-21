@@ -496,6 +496,8 @@ nav {
 
 .project-text {
   margin: 20px;
+}
+.project-text p {
   text-align: justify;
 }
 
