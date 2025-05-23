@@ -7,19 +7,26 @@
     margin: 5vh 5vw;
   }
   .profile-text h1 {
+    overflow: hidden;
     font-size: 1.65em;
-    white-space: wrap;
-    width: 77vw;
-    max-height: 40px;
+    width: 80vw;
+    height: 40px;
   }
   @keyframes typing {
     from {
       width: 0;
     }
     to {
-      width: 77vw;
+      width: 80vw;
     }
   }
+  .profile-text h2 {
+    font-size: 1em;
+  }
+  .profile-text p {
+    font-size: 0.8em;
+  }
+
   .profile-picture {
     height: 250px;
     margin: 0px;
