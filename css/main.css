@@ -337,6 +337,7 @@ h3 {
 /* -------------------- PROJECTS ------------------------------ */
 
 .projects {
+  display: none;
   padding-top: 10px;
 }
 
