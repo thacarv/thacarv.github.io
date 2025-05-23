@@ -120,6 +120,7 @@ h3 {
   /* box-shadow: 6px 12px 14px #03010f83; */
 }
 .profile-text h1 {
+  overflow: hidden;
   font-size: 3em;
   width: 47vw;
   border-right: 0.15em solid rgb(255, 255, 255);
@@ -246,19 +247,16 @@ h3 {
   position: relative;
   padding: 10px 0px;
   margin: 2vh 0vh;
-  width: 50%;
+  width: 70%;
   background-color: var(--basecolor);
   border: black solid 2px;
 }
 
 /* ANIMATION BOX SLIDING */
-.timeline-box.left {
-  animation: slide-left linear;
-  animation-timeline: view();
-  animation-range-start: cover;
-  animation-range-end: 35%;
+.timeline-box.left.in-view {
+  animation: slide-to-right 2s linear;
 }
-@keyframes slide-left {
+@keyframes slide-to-right {
   0% {
     opacity: 0;
     transform: translateX(-50vw);
@@ -271,17 +269,14 @@ h3 {
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0vw);
   }
 }
 
-.timeline-box.right {
-  animation: slide-right linear;
-  animation-timeline: view();
-  animation-range-start: cover;
-  animation-range-end: 35%;
+.timeline-box.right.in-view {
+  animation: slide-to-left 2s linear;
 }
-@keyframes slide-right {
+@keyframes slide-to-left {
   0% {
     opacity: 0;
     transform: translateX(50vw);
@@ -305,7 +300,7 @@ h3 {
 
 /* TIMELINE ITEM DOTS */
 .left {
-  left: 0;
+  left: -10vw;
 }
 .left::after {
   content: "";
@@ -338,7 +333,6 @@ h3 {
 /* -------------------- PROJECTS ------------------------------ */
 
 .projects {
-  display: none;
   padding-top: 10px;
 }
 

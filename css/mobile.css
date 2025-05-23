@@ -44,36 +44,20 @@
     margin-bottom: 50px;
   }
   .timeline::after {
+    overflow: hidden;
     left: 31px;
-    animation: scroll-timeline linear;
-    animation-timeline: scroll();
-    animation-range: 0% 60%;
+    animation-range: 0% 40%;
   }
-  @keyframes scroll-timeline {
-    0% {
-      scale: 1 0.1;
-    }
-    20% {
-      scale: 1 0.3;
-    }
-    50% {
-      scale: 1 0.5;
-    }
-    75% {
-      scale: 1 0.9;
-    }
-    100% {
-      scale: 1 1;
-    }
-  }
+
   .timeline-box {
-    width: 80%;
+    width: 70%;
     padding-left: 80px;
   }
   .timeline-item {
     font-size: 15px;
   }
   .left {
+    left: 0;
     text-align: end;
   }
   .left .timeline-item {
@@ -87,7 +71,7 @@
     left: 10px;
   }
 
-  @keyframes slide-left {
+  @keyframes slide-to-right {
     0% {
       opacity: 0;
       transform: translateX(50vw);
