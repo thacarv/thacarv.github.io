@@ -1,0 +1,105 @@
+@media screen and (max-width: 600px) {
+  .profile {
+    margin-top: 5vh;
+  }
+  .profile-text {
+    margin: 20vw 0vw 20vw 10vw;
+    margin: 5vh 5vw;
+  }
+  .profile-text h1 {
+    font-size: 1.65em;
+    white-space: wrap;
+    width: 77vw;
+    max-height: 40px;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 77vw;
+    }
+  }
+  .profile-picture {
+    height: 250px;
+    margin: 0px;
+    height: 30vh;
+    width: 30vh;
+  }
+
+  /* -------------------- TIMELINE ------------------------------ */
+  .timeline {
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+  }
+  .timeline h1 {
+    margin-bottom: 50px;
+  }
+  .timeline::after {
+    left: 31px;
+    animation: scroll-timeline linear;
+    animation-timeline: scroll();
+    animation-range: 0% 60%;
+  }
+  @keyframes scroll-timeline {
+    0% {
+      scale: 1 0.1;
+    }
+    20% {
+      scale: 1 0.3;
+    }
+    50% {
+      scale: 1 0.5;
+    }
+    75% {
+      scale: 1 0.9;
+    }
+    100% {
+      scale: 1 1;
+    }
+  }
+  .timeline-box {
+    width: 80%;
+    padding-left: 80px;
+  }
+  .timeline-item {
+    font-size: 15px;
+  }
+  .left {
+    text-align: end;
+  }
+  .left .timeline-item {
+    width: 100%;
+  }
+  .right {
+    left: 0;
+  }
+  .left::after,
+  .right::before {
+    left: 10px;
+  }
+
+  @keyframes slide-left {
+    0% {
+      opacity: 0;
+      transform: translateX(50vw);
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* -------------------- PROJECTS ------------------------------ */
+  .project-picture {
+    height: 200px;
+    width: 200px;
+  }
+}
