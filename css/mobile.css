@@ -8,7 +8,7 @@
   }
   .profile-text h1 {
     overflow: hidden;
-    font-size: 1.65em;
+    font-size: 1.45em;
     width: 80vw;
     height: 40px;
   }
@@ -21,7 +21,7 @@
     }
   }
   .profile-text h2 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .profile-text p {
     font-size: 0.8em;
