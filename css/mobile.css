@@ -8,7 +8,7 @@
   }
   .profile-text h1 {
     overflow: hidden;
-    font-size: 1.45em;
+    font-size: 1.43em;
     width: 80vw;
     height: 40px;
   }
@@ -32,6 +32,10 @@
     margin: 0px;
     height: 30vh;
     width: 30vh;
+  }
+
+  .profile-bio a {
+    display: block;
   }
 
   /* -------------------- TIMELINE ------------------------------ */

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --darker: #212121;
@@ -47,7 +48,7 @@ main p,
 h2,
 h3 {
   color: var(--highlight);
-  font-family: "Roboto Mono", "Gill Sans MT", Calibri, monospace;
+  font-family: "Poppins", "Gill Sans MT", Calibri, monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -148,11 +149,27 @@ h3 {
   }
 }
 .profile-text h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  color: #898d97;
 }
 
 .profile-text p {
   animation: wait 4s, 5s fadein 2s;
+}
+
+.profile-bio {
+  color: #898d97;
+  font-size: 1.4rem;
+}
+.profile-bio a {
+  margin-top: 5%;
+  margin-right: 5%;
+  color: #898d97;
+  text-decoration: none;
+}
+
+.profile-bio a:hover {
+  color: var(--highlight);
 }
 
 /* The typewriter cursor effect */
@@ -441,7 +458,7 @@ footer {
 }
 .criador > p {
   color: var(--highlight);
-  font-family: "Roboto Mono", "Gill Sans MT", Calibri, monospace;
+  font-family: "Poppins", "Gill Sans MT", Calibri, monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -449,7 +466,7 @@ footer {
 }
 .criador > h3 {
   color: var(--highlight);
-  font-family: "Roboto Mono", "Gill Sans MT", Calibri, monospace;
+  font-family: "Poppins", "Gill Sans MT", Calibri, monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -463,18 +480,13 @@ footer {
 .tecnologias h3 {
   margin-right: 20px;
   color: var(--highlight);
-  font-family: "Roboto Mono", "Gill Sans MT", Calibri, monospace;
+  font-family: "Poppins", "Gill Sans MT", Calibri, monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1rem;
 }
 
-.tecnologias-imagens {
-  display: flex;
-  justify-content: space-around;
-}
-.tecnologias-imagens img {
-  margin: 0px 5px;
-  width: 19px;
-  height: 19px;
+.tecnologias h3 i {
+  margin-left: 8px;
 }
