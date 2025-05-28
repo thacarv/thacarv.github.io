@@ -1,24 +1,18 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .profile {
     margin-top: 5vh;
+    width: 99vw;
   }
   .profile-text {
     margin: 20vw 0vw 20vw 10vw;
     margin: 5vh 5vw;
+    text-align: center;
+    width: 50vw;
   }
   .profile-text h1 {
     overflow: hidden;
     font-size: 1.43em;
-    width: 80vw;
     height: 40px;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 80vw;
-    }
   }
   .profile-text h2 {
     font-size: 0.8em;
@@ -28,10 +22,9 @@
   }
 
   .profile-picture {
-    height: 250px;
     margin: 0px;
-    height: 30vh;
-    width: 30vh;
+    height: 320px;
+    width: 320px;
   }
 
   .profile-bio a {
@@ -41,15 +34,26 @@
   /* -------------------- TIMELINE ------------------------------ */
   .timeline {
     margin: 0;
-    width: 100vw;
+    width: 99vw;
     padding: 0;
   }
+
   .timeline h1 {
     margin-bottom: 50px;
   }
+
+  .timeline .left i {
+    top: 5.75vh;
+    right: 75.5vw;
+  }
+  .timeline .right i {
+    top: 6vh;
+    left: 4.5vw;
+  }
+
   .timeline::after {
     overflow: hidden;
-    left: 31px;
+    left: 35px;
     animation-range: 0% 40%;
   }
 
@@ -58,7 +62,8 @@
     padding-left: 80px;
   }
   .timeline-item {
-    font-size: 15px;
+    font-size: 10px;
+    width: 300px;
   }
   .left {
     left: 0;
@@ -93,8 +98,16 @@
   }
 
   /* -------------------- PROJECTS ------------------------------ */
+  .project {
+    width: 99vw;
+  }
   .project-picture {
     height: 200px;
     width: 200px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .profile-text {
+    width: 85vw;
   }
 }
