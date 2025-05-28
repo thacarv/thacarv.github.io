@@ -42,6 +42,9 @@
     margin-bottom: 50px;
   }
 
+  .left {
+    left: 0;
+  }
   .timeline .left i {
     top: 5.75vh;
     right: 75.5vw;
@@ -60,6 +63,8 @@
   .timeline-box {
     width: 70%;
     padding-left: 80px;
+    justify-content: center;
+    align-items: center;
   }
   .timeline-item {
     font-size: 10px;
@@ -68,9 +73,6 @@
   .left {
     left: 0;
     text-align: end;
-  }
-  .left .timeline-item {
-    width: 100%;
   }
   .right {
     left: 0;
