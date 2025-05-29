@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .profile {
     margin-top: 5vh;
     width: 99vw;
@@ -46,18 +46,15 @@
     left: 0;
   }
   .timeline .left i {
-    top: 5.75vh;
-    right: 75.5vw;
+    left: 13px;
   }
   .timeline .right i {
-    top: 6vh;
-    left: 4.5vw;
+    left: 13px;
   }
 
   .timeline::after {
     overflow: hidden;
     left: 35px;
-    animation-range: 0% 40%;
   }
 
   .timeline-box {
@@ -108,6 +105,7 @@
     width: 200px;
   }
 }
+
 @media screen and (max-width: 699px) {
   .profile-text {
     width: 85vw;
