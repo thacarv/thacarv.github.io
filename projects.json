@@ -1,0 +1,34 @@
+{
+  "projects": {
+    "0": {
+      "title": "EasyPaperFinder",
+      "img": "https://github.com/thacarv/EasyPaperFinder/raw/main/Turtle.png",
+      "link": "https://github.com/thacarv/EasyPaperFinder",
+      "tec": "JS HTML5 CSS"
+    },
+    "1": {
+      "title": "Jogo do Dado vs Bot",
+      "img": "https://github.com/thacarv/PigGame-vs-Bot/raw/main/piggame-vs-bot.png",
+      "link": "https://thacarv.github.io/PigGame-vs-Bot/",
+      "tec": "JS HTML5 CSS"
+    },
+    "2": {
+      "title": "NextDestination",
+      "img": "https://github.com/thacarv/NextDestination/raw/main/nextdestination.png",
+      "link": "https://thacarv.github.io/NextDestination/",
+      "tec": "JS HTML5 CSS"
+    },
+    "3": {
+      "title": "To-do List",
+      "img": null,
+      "link": "#",
+      "tec": "REACT JS HTML5 CSS TAILWIND"
+    },
+    "4": {
+      "title": "Smart Shopping List",
+      "img": null,
+      "link": "https://thacarv.github.io/SmartList/",
+      "tec": "REACT JS HTML5 CSS SCSS PYTHON PHP MYSQL"
+    }
+  }
+}
