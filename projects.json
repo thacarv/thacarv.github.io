@@ -29,6 +29,12 @@
       "img": null,
       "link": "https://thacarv.github.io/SmartList/",
       "tec": "REACT JS HTML5 CSS SCSS PYTHON PHP MYSQL"
+    },
+    "5": {
+      "title": "Resumee Generator 2000",
+      "img": null,
+      "link": "https://thacarv.github.io/GeradorDeCurriculo/",
+      "tec": "JS HTML5 CSS"
     }
   }
 }
