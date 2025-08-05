@@ -35,6 +35,12 @@
       "img": "https://github.com/thacarv/GeradorDeCurriculo/raw/main/example.jpg",
       "link": "https://thacarv.github.io/GeradorDeCurriculo/",
       "tec": "JS HTML5 CSS"
+    },
+    "6": {
+      "title": "Cadê Meu Dinheiro? (Em andamento)",
+      "img": null,
+      "link": "https://github.com/thacarv/CadeMeuDinheiro",
+      "tec": "JS HTML5 CSS, TAILWIND, REACT"
     }
   }
 }
