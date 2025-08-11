@@ -30,7 +30,7 @@
     },
     "4": {
       "title": "Smart Shopping List",
-      "img": null,
+      "img": "https://github.com/thacarv/SmartList/raw/main/Exemplo.jpeg",
       "github": "https://github.com/thacarv/SmartList",
       "link": "https://thacarv.github.io/SmartList/",
       "tec": "REACT JS HTML5 CSS SCSS PYTHON PHP MYSQL"
