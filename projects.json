@@ -3,42 +3,49 @@
     "0": {
       "title": "EasyPaperFinder",
       "img": "https://github.com/thacarv/EasyPaperFinder/raw/main/Turtle.png",
+      "github": "https://github.com/thacarv/EasyPaperFinder",
       "link": "https://github.com/thacarv/EasyPaperFinder",
       "tec": "JS HTML5 CSS"
     },
     "1": {
       "title": "Jogo do Dado vs Bot",
       "img": "https://github.com/thacarv/PigGame-vs-Bot/raw/main/piggame-vs-bot.png",
+      "github": "",
       "link": "https://thacarv.github.io/PigGame-vs-Bot/",
       "tec": "JS HTML5 CSS"
     },
     "2": {
       "title": "NextDestination",
       "img": "https://github.com/thacarv/NextDestination/raw/main/nextdestination.png",
+      "github": "https://github.com/thacarv/NextDestination",
       "link": "https://thacarv.github.io/NextDestination/",
       "tec": "JS HTML5 CSS"
     },
     "3": {
       "title": "To-do List",
       "img": null,
+      "github": "https://github.com/thacarv/simplelist",
       "link": "#",
       "tec": "REACT JS HTML5 CSS TAILWIND"
     },
     "4": {
       "title": "Smart Shopping List",
       "img": null,
+      "github": "https://github.com/thacarv/SmartList",
       "link": "https://thacarv.github.io/SmartList/",
       "tec": "REACT JS HTML5 CSS SCSS PYTHON PHP MYSQL"
     },
     "5": {
       "title": "Resumee Generator 2000",
       "img": "https://github.com/thacarv/GeradorDeCurriculo/raw/main/example.jpg",
+      "github": "https://github.com/thacarv/GeradorDeCurriculo",
       "link": "https://thacarv.github.io/GeradorDeCurriculo/",
       "tec": "JS HTML5 CSS"
     },
     "6": {
       "title": "Cadê Meu Dinheiro? (Em andamento)",
       "img": null,
+      "github": "",
       "link": "https://github.com/thacarv/CadeMeuDinheiro",
       "tec": "JS HTML5 CSS, TAILWIND, REACT"
     }

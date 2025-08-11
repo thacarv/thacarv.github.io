@@ -402,6 +402,9 @@ p {
 .project-item .hidden {
   display: none;
 }
+.project-item a {
+  color: white;
+}
 
 .project-picture {
   height: 300px;

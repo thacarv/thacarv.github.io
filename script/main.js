@@ -88,6 +88,7 @@ function populateProjects(project) {
               <div class="project-tecs">
               ${tecIcons}
               </div>
+              <a href="${project.github}"><p>Código Github</p></a>
             </div>
 `;
   location.insertAdjacentHTML("beforeend", htmlProject);
